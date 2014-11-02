@@ -28,10 +28,9 @@ public class Main extends JavaPlugin{
 		
 		ShapedRecipe ntrecipe = new ShapedRecipe(nametag);
 		ntrecipe.shape("SSS",
-				       "ADA", 
-				       "AIA");
+				       " D ", 
+				       " I ");
 		ntrecipe.setIngredient('S', Material.STRING);
-		ntrecipe.setIngredient('A', Material.AIR);
 		ntrecipe.setIngredient('D', Material.DIAMOND);
 		ntrecipe.setIngredient('I', Material.IRON_INGOT);
 		Bukkit.getServer().addRecipe(ntrecipe);
@@ -47,10 +46,9 @@ public class Main extends JavaPlugin{
 		ShapedRecipe srecipe = new ShapedRecipe(saddle);
 		srecipe.shape("LLL",
 				      "LLL",
-				      "IAI");
+				      "I I");
 		srecipe.setIngredient('L', Material.LEATHER);
 		srecipe.setIngredient('I', Material.IRON_INGOT);
-		srecipe.setIngredient('A', Material.AIR);
 		Bukkit.getServer().addRecipe(srecipe);
 		
 		
@@ -64,10 +62,9 @@ public class Main extends JavaPlugin{
 		
 		ShapedRecipe chrecipe = new ShapedRecipe(chain_helm);
 		chrecipe.shape("BBB",
-				       "BAB",
-			           "AAA");
+				       "B B",
+			           "   ");
 		chrecipe.setIngredient('B', Material.IRON_FENCE);
-		chrecipe.setIngredient('A', Material.AIR);
 		Bukkit.getServer().addRecipe(chrecipe);
 		
 		/* CHAINMAIL CHESTPLATE RECIPE */
@@ -78,11 +75,10 @@ public class Main extends JavaPlugin{
 		chain_chest.setItemMeta(chain_chestmeta);
 		
 		ShapedRecipe ccrecipe = new ShapedRecipe(chain_chest);
-		ccrecipe.shape("BAB",
+		ccrecipe.shape("B B",
 				       "BBB",
 				       "BBB");
 		ccrecipe.setIngredient('B', Material.IRON_FENCE);
-		ccrecipe.setIngredient('A', Material.AIR);
 		Bukkit.getServer().addRecipe(ccrecipe);
 		
 		/* CHAINMAIL LEGGINGS RECIPE */
@@ -94,10 +90,9 @@ public class Main extends JavaPlugin{
 		
 		ShapedRecipe clrecipe = new ShapedRecipe(chain_leg);
 		clrecipe.shape("BBB",
-				       "BAB",
-				       "BAB");
-		ccrecipe.setIngredient('B', Material.IRON_FENCE);
-		ccrecipe.setIngredient('A', Material.AIR);
+				       "B B",
+				       "B B");
+		clrecipe.setIngredient('B', Material.IRON_FENCE);
 		Bukkit.getServer().addRecipe(clrecipe);
 		
 		/* CHAINMAIL BOOTS RECIPE */
@@ -108,11 +103,10 @@ public class Main extends JavaPlugin{
 		chain_boot.setItemMeta(chain_bootmeta);
 		
 		ShapedRecipe cbrecipe = new ShapedRecipe(chain_boot);
-		cbrecipe.shape("AAA",
-			           "BAB",
-			           "BAB");
-		ccrecipe.setIngredient('B', Material.IRON_FENCE);
-		ccrecipe.setIngredient('A', Material.AIR);
+		cbrecipe.shape("   ",
+			           "B B",
+			           "B B");
+		cbrecipe.setIngredient('B', Material.IRON_FENCE);
 		Bukkit.getServer().addRecipe(cbrecipe);
 		
 		/* IRON HORSE ARMOUR RECIPE */
@@ -124,12 +118,11 @@ public class Main extends JavaPlugin{
 		ironhorse.setItemMeta(ironhorsemeta);
 		
 		ShapedRecipe ihrecipe = new ShapedRecipe(ironhorse);
-		ihrecipe.shape("AAI",
+		ihrecipe.shape("  I",
 				       "IWI",
 				       "III");
 		ihrecipe.setIngredient('I', Material.IRON_INGOT);
 		ihrecipe.setIngredient('W', Material.WOOL);
-		ihrecipe.setIngredient('A', Material.AIR);
 		Bukkit.getServer().addRecipe(ihrecipe);
 		
 		/* GOLD HORSE ARMOUR RECIPE */
@@ -141,10 +134,9 @@ public class Main extends JavaPlugin{
 		goldhorse.setItemMeta(goldhorsemeta);
 		
 		ShapedRecipe ghrecipe = new ShapedRecipe(goldhorse);
-		ghrecipe.shape("AAG",
+		ghrecipe.shape("  G",
 				       "GWG",
 				       "GGG");
-		ghrecipe.setIngredient('A', Material.AIR);
 		ghrecipe.setIngredient('G', Material.GOLD_INGOT);
 		ghrecipe.setIngredient('W', Material.WOOL);
 		Bukkit.getServer().addRecipe(ghrecipe);
@@ -158,10 +150,9 @@ public class Main extends JavaPlugin{
 		diamondhorse.setItemMeta(dhmeta);
 		
 		ShapedRecipe dhrecipe = new ShapedRecipe(diamondhorse);
-		dhrecipe.shape("AAD",
+		dhrecipe.shape("  D",
 				       "DWD",
 				       "DDD");
-		dhrecipe.setIngredient('A', Material.AIR);
 		dhrecipe.setIngredient('D', Material.DIAMOND);
 		dhrecipe.setIngredient('W', Material.WOOL);
 		Bukkit.getServer().addRecipe(dhrecipe);
