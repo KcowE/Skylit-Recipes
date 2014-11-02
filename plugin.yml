@@ -1,0 +1,8 @@
+name: SkylitCrafting
+version: DEV-0.5
+main: me.skylitgaming.recipes.Main
+description: Custom crafting recipes for server
+depend: [SkylitCore, Vault]
+author: tomdabest2711
+website: http://skylitgaming.co.uk
+prefix: SkylitCrafting
