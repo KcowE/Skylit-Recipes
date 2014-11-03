@@ -28,8 +28,8 @@ public class Main extends JavaPlugin{
 		
 		ShapedRecipe ntrecipe = new ShapedRecipe(nametag);
 		ntrecipe.shape("SSS",
-				       " D ", 
-				       " I ");
+			       " D ", 
+			       " I ");
 		ntrecipe.setIngredient('S', Material.STRING);
 		ntrecipe.setIngredient('D', Material.DIAMOND);
 		ntrecipe.setIngredient('I', Material.IRON_INGOT);
@@ -45,8 +45,8 @@ public class Main extends JavaPlugin{
 		
 		ShapedRecipe srecipe = new ShapedRecipe(saddle);
 		srecipe.shape("LLL",
-				      "LLL",
-				      "I I");
+			      "LLL",
+			      "I I");
 		srecipe.setIngredient('L', Material.LEATHER);
 		srecipe.setIngredient('I', Material.IRON_INGOT);
 		Bukkit.getServer().addRecipe(srecipe);
@@ -62,8 +62,8 @@ public class Main extends JavaPlugin{
 		
 		ShapedRecipe chrecipe = new ShapedRecipe(chain_helm);
 		chrecipe.shape("BBB",
-				       "B B",
-			           "   ");
+			       "B B",
+		               "   ");
 		chrecipe.setIngredient('B', Material.IRON_FENCE);
 		Bukkit.getServer().addRecipe(chrecipe);
 		
@@ -76,8 +76,8 @@ public class Main extends JavaPlugin{
 		
 		ShapedRecipe ccrecipe = new ShapedRecipe(chain_chest);
 		ccrecipe.shape("B B",
-				       "BBB",
-				       "BBB");
+			       "BBB",
+			       "BBB");
 		ccrecipe.setIngredient('B', Material.IRON_FENCE);
 		Bukkit.getServer().addRecipe(ccrecipe);
 		
@@ -90,8 +90,8 @@ public class Main extends JavaPlugin{
 		
 		ShapedRecipe clrecipe = new ShapedRecipe(chain_leg);
 		clrecipe.shape("BBB",
-				       "B B",
-				       "B B");
+			       "B B",
+			       "B B");
 		clrecipe.setIngredient('B', Material.IRON_FENCE);
 		Bukkit.getServer().addRecipe(clrecipe);
 		
@@ -104,8 +104,8 @@ public class Main extends JavaPlugin{
 		
 		ShapedRecipe cbrecipe = new ShapedRecipe(chain_boot);
 		cbrecipe.shape("   ",
-			           "B B",
-			           "B B");
+		               "B B",
+			       "B B");
 		cbrecipe.setIngredient('B', Material.IRON_FENCE);
 		Bukkit.getServer().addRecipe(cbrecipe);
 		
@@ -119,8 +119,8 @@ public class Main extends JavaPlugin{
 		
 		ShapedRecipe ihrecipe = new ShapedRecipe(ironhorse);
 		ihrecipe.shape("  I",
-				       "IWI",
-				       "III");
+			       "IWI",
+			       "III");
 		ihrecipe.setIngredient('I', Material.IRON_INGOT);
 		ihrecipe.setIngredient('W', Material.WOOL);
 		Bukkit.getServer().addRecipe(ihrecipe);
@@ -135,8 +135,8 @@ public class Main extends JavaPlugin{
 		
 		ShapedRecipe ghrecipe = new ShapedRecipe(goldhorse);
 		ghrecipe.shape("  G",
-				       "GWG",
-				       "GGG");
+			       "GWG",
+			       "GGG");
 		ghrecipe.setIngredient('G', Material.GOLD_INGOT);
 		ghrecipe.setIngredient('W', Material.WOOL);
 		Bukkit.getServer().addRecipe(ghrecipe);
@@ -151,8 +151,8 @@ public class Main extends JavaPlugin{
 		
 		ShapedRecipe dhrecipe = new ShapedRecipe(diamondhorse);
 		dhrecipe.shape("  D",
-				       "DWD",
-				       "DDD");
+			       "DWD",
+			       "DDD");
 		dhrecipe.setIngredient('D', Material.DIAMOND);
 		dhrecipe.setIngredient('W', Material.WOOL);
 		Bukkit.getServer().addRecipe(dhrecipe);
