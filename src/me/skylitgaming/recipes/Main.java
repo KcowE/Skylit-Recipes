@@ -27,12 +27,13 @@ public class Main extends JavaPlugin{
 		nametag.setItemMeta(nametagmeta);
 		
 		ShapedRecipe ntrecipe = new ShapedRecipe(nametag);
-		ntrecipe.shape("SSS",
+		ntrecipe.shape("SES",
 			       " D ", 
 			       " I ");
 		ntrecipe.setIngredient('S', Material.STRING);
 		ntrecipe.setIngredient('D', Material.DIAMOND);
 		ntrecipe.setIngredient('I', Material.IRON_INGOT);
+		ntrecipe.setIngredient('E', Material.EMERALD);
 		Bukkit.getServer().addRecipe(ntrecipe);
 		
 		/* SADDLE RECIPE */
